@@ -1,0 +1,10 @@
+Package: engcomp
+Version: 1.0
+Architecture: all
+Maintainer: Agnaldo Marinho
+Homepage: http://www.fct.ufpa.br/ 
+Installed-Size: 6769
+Depends: yakuake, vim, katomic, kile, texmaker, mc, emacs,  emacs23-common-non-dfsg, kchmviewer, gv, unrar, rar, zip, unzip, zoo, bzip2, p7zip, p7zip-full, automake, gimp, maxima, wxmaxima, octave, gnuplot, gnuplot-x11, qtoctave, eclipse, openjdk-7-jdk, openjdk-7-jre
+Description: Pacotes que instala todas as depedencias de pacotes
+da instalacao dos laboratorios de aula da engenharia da computacao
+UFPA.
