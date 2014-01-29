@@ -1,0 +1,63 @@
+### Debian 7.0 Wheezy.
+deb http://ftp.debian.org/debian experimental main
+#mirro UFPA
+deb http://mirror.ufpa.br/debian wheezy main contrib non-free
+deb http://mirror.ufpa.br/debian-security wheezy/updates main contrib non-free
+#deb http://mirro.ufpar.br/debian wheezy-updates main contrib non-free
+#deb http://mirro.ufpar.br/debian wheezy-proposed-updates main contrib non-free
+#deb http://mirror.ufpar.br/debian wheezy-backports main 
+#contrib non-free
+
+
+
+### Chave GPG: apt-get install debian-archive-keyring
+deb http://sft.if.usp.br/debian/ wheezy main contrib non-free
+#deb http://ftp.br.debian.org/debian/ wheezy main contrib non-free
+#deb http://linorg.usp.br/debian/ wheezy main contrib non-free
+#deb http://ftp.debian.org/debian/ wheezy main contrib non-free
+ 
+### Debian 7.0 Wheezy Security 'Updates'.
+deb http://sft.if.usp.br/debian-security/ wheezy/updates main contrib non-free
+#deb http://ftp.br.debian.org/debian-security/ wheezy/updates main contrib non-free
+#deb http://security.debian.org/ wheezy/updates main contrib non-free
+#deb http://linorg.usp.br/debian-security/ wheezy/updates main contrib non-free
+ 
+### Debian 7.0 Wheezy Updates 'Volatile'.
+deb http://sft.if.usp.br/debian/ wheezy-updates main contrib non-free
+#deb http://ftp.br.debian.org/debian/ wheezy-updates main contrib non-free
+#deb http://linorg.usp.br/debian/ wheezy-updates main contrib non-free
+#deb http://ftp.debian.org/debian/ wheezy-updates main contrib non-free
+ 
+### Debian 7.0 Wheezy 'Proposed Updates'.
+deb http://sft.if.usp.br/debian/ wheezy-proposed-updates main contrib non-free
+#deb http://ftp.br.debian.org/debian/ wheezy-proposed-updates main contrib non-free
+#deb http://linorg.usp.br/debian/ wheezy-proposed-updates main contrib non-free
+#deb http://ftp.debian.org/debian/ wheezy-proposed-updates main contrib non-free
+ 
+### Debian 7.0 Wheezy 'Backports'.
+deb http://sft.if.usp.br/debian/ wheezy-backports main contrib non-free
+#deb http://ftp.br.debian.org/debian/ wheezy-backports main contrib non-free
+#deb http://linorg.usp.br/debian/ wheezy-backports main contrib non-free
+#deb http://ftp.debian.org/debian/ wheezy-backports main contrib non-free
+
+
+#deb http://http.debian.net/debian wheezy main
+#deb-src http://http.debian.net/debian wheezy main
+
+#deb http://http.debian.net/debian wheezy-updates main
+#deb-src http://http.debian.net/debian wheezy-updates main
+
+#deb http://security.debian.org/ wheezy/updates main
+#deb-src http://security.debian.org/ wheezy/updates main
+
+#deb http://ftp.br.debian.org/debian/ wheezy contrib non-free
+#deb-src http://ftp.br.debian.org/debian/ wheezy main contrib non-free
+
+#deb http://debian.tryphon.eu wheezy main contrib
+#deb-src http://debian.tryphon.eu wheezy main contrib
+
+#deb http://packages.dotdeb.org wheezy all
+#deb-src http://packages.dotdeb.org wheezy all 
+
+
+

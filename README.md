@@ -1,4 +1,5 @@
 engcomp
 =======
 
-script de instalação do labcom
+script de instalação e configuração  do labcom 
+
