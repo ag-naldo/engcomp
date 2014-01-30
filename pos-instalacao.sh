@@ -11,7 +11,7 @@
 
 # Configurando o novo source.list do debian 7 wheezy 
 cd /tmp
-wget https://github.com/ag-naldo/engcomp/blob/master/sources.list
+wget http://cdn.bitbucket.org/agnaldonm/engcompti/downloads/sources.list
 mv /etc/apt/sources.list /etc/apt/sources.list-orig
 mv /tmp/sources.list /etc/apt/sources.list
 
